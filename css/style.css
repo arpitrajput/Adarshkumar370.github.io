@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+}
+.navBar{
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    border: 5px solid #ffcc5e;
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    justify-content: center;
+    
+    .link {
+        flex-basis: 30%
+        display: flex;
+        box-sizing: border-box;
+    }
